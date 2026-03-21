@@ -2,6 +2,7 @@
 image bg fundo = "fundo.png"
 label start:
     scene bg fundo
+    with fade_black
     
     show eillen happy
     e "OI {cps=30} aparece letra por letra igual maquina{/cps}"
@@ -9,7 +10,7 @@ label start:
     if _return == "legal":
         e "Obrigado!"
     else:
-        s "Seu programador favorito!"
+        e "Seu programador favorito!"
     
     e "Teste"
     
