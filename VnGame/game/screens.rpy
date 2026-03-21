@@ -99,15 +99,28 @@ screen say(who, what):
 
     window:
         id "window"
+        background None  # Remove TODO fundo opaco - essencial para transparência!
+        
+        # Frame opcional para borda line art fina (crie gui/frame_lineart.png transparente)
+        # frame:
+        #     background "gui/frame_lineart.png"
+        #     xpadding 30
+        #     ypadding 30
+        #     xalign 0.5
+        #     yalign 1.0
 
         if who is not None:
 
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                background "#0000"  # Namebox invisível
+                text who:
+                    id "who"
+                    style "name_text"
 
-        text what id "what"
+        text what id "what":
+            style "say_dialogue"
 
 
     ## Se houver uma imagem lateral, exiba-a acima do texto. Não exiba na
@@ -365,16 +378,7 @@ screen main_menu():
     ## menu principal está na tela de navegação.
     use navigation
 
-    if gui.show_name:
-
-        vbox:
-            style "main_menu_vbox"
-
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
+    
 
 
 style main_menu_frame is empty

@@ -4,24 +4,16 @@ label start:
     scene bg fundo
     
     show eillen happy
-    e "OI"
+    e "OI {cps=30} aparece letra por letra igual maquina{/cps}"
     call screen escolha_menu
     if _return == "legal":
         e "Obrigado!"
     else:
         s "Seu programador favorito!"
     
-    hide steve
-    show lula at truecenter
-    e "Olha o bolsonaro apareceu"
-    hide lula
-    show bolsonaro at truecenter
-    b "Ta ok?"
-    b "Olha quem vem la!"
-    hide bolsonaro
-    show lula at truecenter
+    e "Teste"
     
-    l "Isso é o que você pode fazer!"
+    
     
     return
 

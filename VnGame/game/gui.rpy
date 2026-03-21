@@ -112,7 +112,7 @@ define gui.textbox_yalign = 1.0
 ## O posicionamento do nome do personagem que fala, em relação à caixa de texto.
 ## Pode ser um número inteiro de pixels a partir da esquerda ou do topo, ou 0,5
 ## para o centro.
-define gui.name_xpos = 360
+
 define gui.name_ypos = 0
 
 ## O alinhamento horizontal do nome do personagem. Pode ser 0,0 para alinhado à
@@ -454,7 +454,6 @@ init python:
 
         ## Ajustar o local da caixa de texto.
         gui.textbox_height = 360
-        gui.name_xpos = 120
         gui.dialogue_xpos = 135
         gui.dialogue_width = 1650
 
@@ -491,3 +490,23 @@ init python:
 
         gui.nvl_button_width = 1860
         gui.nvl_button_xpos = 30
+
+## MAIS À ESQUERDA - Padding menor
+define gui.textbox_height = 300
+define gui.textbox_yalign = 1.0
+define gui.textbox_width = None
+define gui.name_xalign = 0.0
+define gui.text_size = 28
+define gui.name_xpos = 400          # ← MENOS padding (era 100)
+define gui.name_ypos = 30
+define gui.dialogue_xpos = 450      # ← MENOS padding (era 120)
+define gui.dialogue_ypos = 100
+define gui.dialogue_width = 1400   # ← Mais largura
+
+
+define gui.show_name = False
+define config.version = None
+
+
+
+
