@@ -4,7 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen")
-define s = character("Steve")
+define s = Character("Steve")
 
 
 
@@ -30,6 +30,7 @@ label start:
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
+    s "salve, teste"
     # This ends the game.
 
     return
