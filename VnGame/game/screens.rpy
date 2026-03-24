@@ -103,7 +103,7 @@ screen say(who, what):
 
         text what id "what":
             style "say_dialogue"    # ← dentro da window ✓
-            color "#000000"
+            color "#ffffff"
 
     if who is not None:
         text who:

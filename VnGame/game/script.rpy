@@ -32,7 +32,7 @@ label start:
     call screen escolha_genero with fade_black
     with fade_black
     show screen frase_transicao("“O mal não é profundo nem radical. Ele é como um fungo que se espalha pela superfície, porque não tem raízes. O mal vem da incapacidade de pensar, de se colocar no lugar do outro.”— Hannah Arendt") with dissolve
-    pause 8.0
+    pause 6.0
     hide screen frase_transicao with dissolve
     show screen horario("…4:55 da manhã.") with dissolve
     pause 2.0
@@ -53,7 +53,7 @@ label start:
         show protaM
     
     
-    p "OI {cps=30}aparece letra por letra igual maquina{/cps}" # usar o narrador (N)
+    p "OI {cps=30}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAA aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaa{/cps}" # usar o narrador (N)
     # roteiro apenas o quarto sem ninguem aparecendo e a fala do narrador ou da protaF (nao sei =] )
 
     return
