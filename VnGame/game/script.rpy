@@ -42,6 +42,7 @@ label start:
     pause 6.0
     hide screen frase_transicao with dissolve
     show screen frase_transicao("Dia 0") with dissolve
+    pause 1.0
     hide screen frase_transicao with dissolve
     pause 1.0
     show screen horario("…4:55 da manhã.") with dissolve
@@ -57,7 +58,7 @@ label start:
 
     if genero == "mulher":
         $ nome_prota = "Kiyoki Kovalenko"
-        show protaF
+        
         
         p "{cps=30}Mal consigo abrir os olhos.{/cps}"
         
@@ -72,22 +73,20 @@ label start:
         scene black with fade
         pause 1.0
         scene bg fundo with fade
-        show protaF
-        
-        p "…"
-        
-        p "Essa sou eu."
-        
-        p "Descabelada. Exausta."
-        
-        p "Não que isso seja novidade."
-        
-        p "Cabelo cacheado não é exatamente… prático."
-        
-        p "…"
         
         
-        p "{cps=30}Eu me sinto… deslocada.{/cps}"
+        p "{cps=30} ... {/cps}"
+
+        p "{cps=30}Essa sou eu.{/cps}"
+        
+        p "{cps=30}Descabelada. Exausta.{/cps}"
+        
+        p "{cps=30}Não que isso seja novidade.{/cps}"
+        
+        p "{cps=30}Cabelo cacheado não é exatamente… prático.{/cps}"
+        
+        p "{cps=30} ... {/cps}"
+        
        
 
         p "{cps=30}Hoje é o dia da minha viagem de volta.{/cps}"
@@ -106,7 +105,70 @@ label start:
         
         p "{cps=30}É pra lá que eu estou voltando agora.{/cps}"
         
-    
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}Vinte e duas horas de viagem.{/cps}"
+        p "{cps=30}E, quando eu chegar, ainda vou ter que pegar um ônibus.{/cps}"
+        p "{cps=30}..!{/cps}"
+
+        p "{cps=30}Eu sou meio desajeitada.{/cps}"
+        p "{cps=30}Nem expliquei o mais importante ainda.{/cps}"
+
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}Hoje é meu primeiro dia no ensino médio.{/cps}"
+        p "{cps=30}Nova escola.{/cps}"
+        p "{cps=30}Nova rotina.{/cps}"
+        p "{cps=30}Novo tudo.{/cps}"
+
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}O nome é Instituto Real de Insterburg.{/cps}"
+        p "{cps=30}Sim… eu sei como isso soa.{/cps}"
+        p "{cps=30}Eu sou rica.{/cps}"
+        p "{cps=30}Riquinha mimada, se você preferir.{/cps}"
+
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}Mas não se engane.{/cps}"
+        p "{cps=30}Por mais que eu viva cercada de luxo…{/cps}"
+        p "{cps=30}Com a vida praticamente decidida…{/cps}"
+        p "{cps=30}isso nunca foi o que mais importou pra mim.{/cps}"
+
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}A minha maior paixão… é a história da humanidade.{/cps}"
+        p "{cps=30}Histórias de pessoas.{/cps}"
+        p "{cps=30}De verdade.{/cps}"
+
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}Sempre que eu escuto a história de alguém…{/cps}"
+        p "{cps=30}meu coração pesa.{/cps}"
+        p "{cps=30}Não importa quem seja.{/cps}"
+
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}Eu acho que todo mundo merece ser visto.{/cps}"
+        p "{cps=30}Ser lembrado.{/cps}"
+
+        p "{cps=30} ... {/cps}"
+        p "{cps=30}Mas o mundo não funciona assim.{/cps}"
+        p "{cps=30}Nunca funcionou.{/cps}"
+        p "{cps=30}Principalmente… pra quem não é como eu.{/cps}"
+
+        p "{cps=30} (som do ônibus freando){/cps}"
+        p "{cps=30}…finalmente.{/cps}"
+        p "{cps=30}Que viagem exaustiva…{/cps}"
+        p "{cps=30}E olha que eu dormi maior parte do tempo no avião.{/cps}"
+        p "{cps=30}Minhas costas ainda doem por causa das cadeiras do ônibus.{/cps}"
+        
+        p "{cps=30}...{/cps}"
+        p "{cps=30}Mas tudo bem.{/cps}" # sprites começa aqui
+        show protaF
+        p "{cps=30}Valeu a pena.{/cps}"
+
+        p "{cps=30}...{/cps}"
+        p "{cps=30}Finalmente estou aqui.{/cps}"
+        p "{cps=30}O Instituto Real de Insterburg.{/cps}"
+        p "{cps=30}(eu olho para aqueles enormes portões com um leve aperto na garganta){/cps}"
+        p "{cps=30}Então é isso.{/cps}"
+        p "{cps=30}A partir daqui…{/cps}"
+        p "{cps=30}Nada será o mesmo.{/cps}"
+        
     elif genero == "homem":
         $ nome_prota = "Kuroya Yagami"
         show protaM
