@@ -26,7 +26,7 @@ screen perfil_janela():
         xsize 900
         ysize 620
         background Solid("#202020C0")
-        padding 20
+        padding (20, 20, 20, 20)
 
         vbox:
             spacing 12
